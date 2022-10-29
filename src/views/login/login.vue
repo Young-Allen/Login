@@ -67,7 +67,7 @@ export default {
   methods: {
     onSubmit (values) {
       axios({
-        url: "http://localhost:3000/users",
+        url: "http://123.60.44.50:3000/users",
         method: "GET",
       }).then(res => {
         console.log(res.data);
