@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div>
+    用户名：{{$route.query.name}}
   </div>
 </template>
 
 <script>
-
 export default {
-  components: {
-  }
+
 }
 </script>
 
