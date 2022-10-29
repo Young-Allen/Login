@@ -9,10 +9,13 @@ import 'vant/lib/index.css';
 import { Button } from 'vant';
 import { Form } from 'vant';
 import { Field } from 'vant';
+import { Icon } from 'vant';
 
 Vue.use(Form);
 Vue.use(Field);
 Vue.use(Button);
+Vue.use(Icon);
+
 Vue.config.productionTip = false
 
 new Vue({
