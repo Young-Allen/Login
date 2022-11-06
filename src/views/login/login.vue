@@ -67,7 +67,7 @@ export default {
   methods: {
     onSubmit (values) {
       axios({
-        url: "http://123.60.44.50:3000/users",
+        url: " https://db-api.amarea.cn/users",
         method: "GET",
       }).then(res => {
         console.log(res.data);
