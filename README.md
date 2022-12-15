@@ -22,3 +22,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# DEMO
+see demo click [demo](https://young-allen.github.io/Login/dist/index.html#/login)
